@@ -1,0 +1,147 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#topbar{
+
+    height: 40px;
+    width: 1036px;
+    margin: 0 auto;
+    background-color: #fffdff;
+
+}
+
+#logo{
+
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 80px;
+    height:24px;
+    float: left;
+
+}
+
+.topbar-selection{
+
+    float: left;
+    border-left: 1px #CCCCCC solid;
+    height: 100%;
+
+}
+
+.topbar-selection:hover{
+
+    color:rgb(0, 17, 255);
+
+}
+
+#signin-text{
+
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: -14px;
+    left: -8px;
+    padding-right: 50px;
+}
+
+#signin-image{
+
+    width: 30px;
+    margin: 5px 15px;
+    float: left;
+    
+}
+
+#labels{
+
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    left: 13px;
+    top: 11px;
+    padding-right: 26px;
+
+}
+
+#search-box{
+
+    position: relative;
+    top: -2px;
+    left: 10px;
+    background-color: #e4e4e4;
+    border: none;
+    height: 23px;
+    font-weight: 700;
+
+}
+
+#search-button{
+
+    background-image: url('img/search.png');
+    height: 25px;
+    width: 31px;
+    position: relative;
+    top: 6px;
+    border: none;
+
+}
+
+#outter-bar{
+
+    background-color: #bb1919;
+    height: 57px;
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+
+#subtop{
+
+    width: 1036px;
+    margin: 0 auto;
+    color:white;
+    font-size: 1.35em;
+
+}
+
+#outter-bar-lower{
+
+    background-color: #a91717;
+    height: 41px;
+    width: 100%;
+    position: relative;
+    top: -30px;
+
+}
+
+.bottomlabels{
+
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-left: 1px #b53737 solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 52%;
+
+}
+
+.bottomlabels:hover{
+    
+    text-decoration: underline;
+
+}
+
+#lower-bar-menu{
+
+    width: 1036px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
