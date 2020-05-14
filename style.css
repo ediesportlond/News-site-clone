@@ -283,3 +283,10 @@ body{
     height: 150px;
 
 }
+
+@media (max-width: 1052px) {
+    #side-content{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+}
